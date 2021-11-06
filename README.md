@@ -1,1 +1,1 @@
-## AWS React Codepipeline example
+## AWS React Codepipeline
