@@ -18,7 +18,7 @@ phases:
         - echo "Building..."
         - react-scripts build
 artifacts:
+  base-directory: build 
   files:
     - "**/*"
   discard-paths: no
-  base-directory: build 
