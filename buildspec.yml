@@ -21,4 +21,4 @@ artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory: build 
+  base-directory: s3://codepipeline-ap-southeast-1-190822776969/react-build/BuildArtif/ 
