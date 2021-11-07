@@ -12,13 +12,13 @@ phases:
       - apt install --no-install-recommends yarn
     pre_build:
       - echo "Installing dependencies..."
-      - yarn
+      - npm install
     build: 
       commands:
         - echo "Building..."
         - npm run build
 artifacts:
-  base-directory: build 
   files:
     - "**/*"
   discard-paths: no
+  base-directory: build 
